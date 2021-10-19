@@ -5,10 +5,10 @@ using Todo.Domain.Commands.Contracts;
 
 namespace Todo.Domain.Commands
 {
-    public class UpadateTodoCommand : Notifiable, ICommand
+    public class UpdateTodoCommand : Notifiable, ICommand
     {
-        public UpadateTodoCommand() { }
-        public UpadateTodoCommand(Guid id, string title, string user)
+        public UpdateTodoCommand() { }
+        public UpdateTodoCommand(Guid id, string title, string user)
         {
             Id = id;
             Title = title;
