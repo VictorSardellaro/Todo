@@ -53,6 +53,7 @@ namespace Todo.Domain.Infra.Repositories
         {
             return _context
                 .Todos
+                .Where(TodoQueries.GetById(user))
                 .FirstOrDefault(x => x.Id == id && x.User == user);
         }
 
