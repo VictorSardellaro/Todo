@@ -11,6 +11,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.11" />
     <PackageReference Include="microsoft.entityframeworkcore.relational" Version="5.0.11" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlserver" Version="5.0.11" />
     <PackageReference Include="microsoft.entityframeworkcore.tools" Version="5.0.11">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
